@@ -42,6 +42,7 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             api(libs.compose.webview)
+            implementation(libs.voyager.navigator)
         }
     }
 }
