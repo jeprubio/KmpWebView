@@ -46,7 +46,7 @@ class Samples : Screen {
                 Spacer(Modifier.height(8.dp))
             }
             item {
-                Button(onClick = { /* do something */ }) {
+                Button(onClick = { navigator.push(LocalHtmlSample()) }) {
                     Text("Webview local html")
                 }
             }
